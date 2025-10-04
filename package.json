@@ -1,0 +1,29 @@
+{
+  "name": "aibook-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full Stack AI Video Analysis Platform",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "start:backend": "npm run start --workspace=backend"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "nodejs",
+    "express",
+    "jwt",
+    "postgresql",
+    "ai",
+    "video-analysis"
+  ],
+  "author": "AI Studio User",
+  "license": "MIT"
+}
