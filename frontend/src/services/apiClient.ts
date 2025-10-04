@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://backend-api-h5xj.zeabur.app/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://backend-api-h5xj.zeabur.app/api';
 
 const getToken = () => localStorage.getItem('auth_token');
 
